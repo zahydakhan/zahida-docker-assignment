@@ -1,4 +1,4 @@
-# zahida-docker-assignment
+![image](https://github.com/zahydakhan/zahida-docker-assignment/assets/45081511/384a5d51-658f-4f2a-a54f-f263502c2242)# zahida-docker-assignment
 ### Step1. Selected App: Django Blog App
 ### Step2: Identified Dependencies
 ```
@@ -110,6 +110,61 @@ latest: digest: sha256:e96316cb82478feecc44191acaf4eea9154964911193397bbf8eb7c44
 </details>
 
 ![image](https://github.com/zahydakhan/zahida-docker-assignment/assets/45081511/73391710-93e0-487d-95e9-0c9a9518dd56)
+
+### Step 6: Created a github repo "zahida-docker-assignment"
+![image](https://github.com/zahydakhan/zahida-docker-assignment/assets/45081511/81e566b6-d28f-4a17-80b5-7138e8006811)
+
+### Step7: I have succfully created the README.ms file and have logged the details of each step in this file
+
+### Step 8: Pushing the codebase
+1. To initiate a local git repo
+   ```
+   git init
+   ```
+
+2. Change the local branch to main
+   ```
+   git branch -m master main
+   ```
+
+3. To add code to the staging area
+   ```
+   git add .
+   ```
+   
+4. To Commit changes to the local repo 
+```
+git commit -m "Initial Commit"
+```
+<summary>LOGS</summary>
+<details>
+  [main (root-commit) a360269] First Commit
+ 13 files changed, 301 insertions(+)
+ create mode 100644 Dockerfile
+ create mode 100644 Pipfile
+ create mode 100644 Pipfile.lock
+ create mode 100644 core/__init__.py
+ create mode 100644 core/asgi.py
+ create mode 100644 core/settings.py
+ create mode 100644 core/templates/index.html
+ create mode 100644 core/urls.py
+ create mode 100644 core/views.py
+ create mode 100644 core/wsgi.py
+ create mode 100644 db.sqlite3
+ create mode 100644 manage.py
+ create mode 100644 requirements.txt
+</details>
+
+5. To add the remote repo to my local git repo
+```
+git remote add origin https://github.com/zahydakhan/zahida-docker-assignment.git
+```
+
+6. To push the code to the remote repo
+   ```
+   git push origin main
+   ```
+
 
 
 

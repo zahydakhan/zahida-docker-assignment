@@ -164,7 +164,19 @@ git remote add origin https://github.com/zahydakhan/zahida-docker-assignment.git
    ```
    git push origin main
    ```
-
+<summary>LOGS</summary>
+<details>
+  Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (16/16), 4.31 KiB | 401.00 KiB/s, done.
+Total 16 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/zahydakhan/zahida-docker-assignment.git
+ + 50cfd08...a360269 main -> main (forced update)
+branch 'main' set up to track 'origin/main'.
+</details>
 
 
 

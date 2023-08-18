@@ -74,6 +74,42 @@ What's Next?
   View summary of image vulnerabilities and recommendations → docker scout quickview
 </details>
 
+### Step5: Pushing the image to DockerHub
+1. Created a new repo in Docker Hub with name "python-django"
+
+2. Used the below command to signin to DockerHub
+   ```
+   docker login -u YOUR-USER-NAME
+   ```
+
+3. Used the docker tag command to tag image
+   ```
+   docker tag djangoapp:latest zahydakhan/python-django:latest
+   ```
+4. Used the docker images command to view tagged image
+   ```
+   docker images
+   ```
+5. Now push the image to DockerHub
+   ```
+   docker push zahydakhan/python-django:latest
+   ```
+<summary>LOGS</summary>
+<details>
+The push refers to repository [docker.io/zahydakhan/python-django]
+de409a634d75: Pushed
+88cb8a17b716: Pushed
+98004e3ebc1a: Pushed
+6dfc61288941: Pushed
+e6c5004ee77f: Mounted from library/python
+997b8e79e84f: Mounted from library/python
+3054512b6f71: Mounted from library/python
+ae2d55769c5e: Mounted from library/python
+e2ef8a51359d: Mounted from library/python
+latest: digest: sha256:e96316cb82478feecc44191acaf4eea9154964911193397bbf8eb7c44346ac8c size: 2204
+</details>
+
+![image](https://github.com/zahydakhan/zahida-docker-assignment/assets/45081511/73391710-93e0-487d-95e9-0c9a9518dd56)
 
 
 
